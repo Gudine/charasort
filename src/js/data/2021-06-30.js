@@ -1,7 +1,7 @@
-dataSetVersion = "2019-11-26"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2021-06-30"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
-dataSet[dataSetVersion].changelog = ["Added Okunoda Miyoi"];
+dataSet[dataSetVersion].changelog = ["Added Unconnected Marketeers (full)"];
 
 dataSet[dataSetVersion].options = [
   {
@@ -38,7 +38,8 @@ dataSet[dataSetVersion].options = [
       { name: "Antinomy of Common Flowers", tooltip: "15.5 - Hyouibana", key: "AoCF" },
       { name: "Hidden Star in Four Seasons", tooltip: "16 - Tenkuushou", key: "HSiFS" },
       { name: "Violet Detector", tooltip: "16.5 - Hifuu Nightmare Diary", key: "VD" },
-      { name: "Wily Beast and Weakest Creature", tooltip: "17 - Kikeijuu", key: "WBaWC" }
+      { name: "Wily Beast and Weakest Creature", tooltip: "17 - Kikeijuu", key: "WBaWC" },
+      { name: "Unconnected Marketeers", tooltip: "18 - Kouryuudou", key: "UM" },
     ]
   },
   {
@@ -72,7 +73,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Hakurei Reimu",
     img: "39486261_p0.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC" ],
+      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
       stage: ["st4"]
     }
   },
@@ -80,7 +81,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kirisame Marisa",
     img: "39261304_p0.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "GFW", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC" ],
+      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "GFW", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
       stage: ["st4", "ex"]
     }
   },
@@ -138,7 +139,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Izayoi Sakuya",
     img: "39547480_p1.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "soku", "HM", "DDC", "ISC" ],
+      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "soku", "HM", "DDC", "ISC", "UM" ],
       stage: ["st5", "st6"]
     }
   },
@@ -402,7 +403,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kochiya Sanae",
     img: "39877070_p0.png",
     opts: {
-      series: ["MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "ISC", "LoLK"],
+      series: ["MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "ISC", "LoLK", "UM"],
       stage: ["st5", "ex"]
     }
   },
@@ -907,6 +908,70 @@ dataSet[dataSetVersion].characterData = [
     img: "H2v2GPy.png",
     opts: {
       series: ["WBaWC"],
+      stage: ["ex"]
+    }
+  },
+  {
+    name: "Goutokuji Mike",
+    img: "FltSdtv.png",
+    opts: {
+      series: ["UM"],
+      stage: ["st1"]
+    }
+  },
+  {
+    name: "Yamashiro Takane",
+    img: "Aaq99GQ.png",
+    opts: {
+      series: ["UM"],
+      stage: ["st2"]
+    }
+  },
+  {
+    name: "Komakusa Sannyo",
+    img: "DKupiv1.png",
+    opts: {
+      series: ["UM"],
+      stage: ["st3"]
+    }
+  },
+  {
+    name: "Tamatsukuri Misumaru",
+    img: "0V9jLUm.png",
+    opts: {
+      series: ["UM"],
+      stage: ["st4"]
+    }
+  },
+  {
+    name: "Kudamaki Tsukasa",
+    img: "hiKwpr7.png",
+    opts: {
+      series: ["UM"],
+      stage: ["st5", "st6", "ex"]
+    }
+  },
+  {
+    name: "Iizunamaru Megumu",
+    img: "4fhGB1j.png",
+    opts: {
+      series: ["UM"],
+      stage: ["st5"]
+    }
+  },
+  {
+    name: "Tenkyuu Chimata",
+    img: "7ebXBQi.png",
+    opts: {
+      series: ["UM"],
+      stage: ["st6"]
+    }
+  },
+  {
+    name: "Himemushi Momoyo",
+    img: "UG0f5r4.png",
+    opts: {
+      series: ["UM"],
       stage: ["ex"]
     }
   },
